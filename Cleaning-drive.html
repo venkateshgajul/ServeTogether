@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning-Drive Page</title>
+    <link rel="stylesheet" href="cleaning-drive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <ul>
+                <li>Together for a Better Tomorrow</li>  
+            </ul>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" ><p>ServeTogether</p>
+            </div>
+            <ul> 
+                <li><a href="main.html"><i class="fa-solid fa-house"></i>  Home</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-user"></i>  Login In</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <p class="p1">ORGANIZED BY SERVETOGETHER</p>
+    <div class="clean-div">
+        <img src="images/cleaning1.avif" alt="Photo" class="photo">   
+    </div>
+    <h3>RIVER CLEANING DRIVE</h3>
+    <h4>"FLOW WITH CARE, CLEAN OUR RIVERS, SHOW YOU’RE THERE."</h4><br>
+    <p><i class="fa-solid fa-calendar-days"></i>02 OCTOBER 2024</p><br>
+    <p><i class="fa-solid fa-location-dot"></i>Omkar Heights, Burning Ghat Rd, Vaswani Nagar, Ragvilas Society, Koregaon Park, Pune, Maharashtra 411001</p>
+    <div class="form-container">
+    <form action="cleaning_drive.jsp" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Suggest and encourage people to join the campaign</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" onclick="window.location.href='campaign_joined.html';">Submit</button>
+    </form>
+    </div>
+</main> 
+</body>
+</html>

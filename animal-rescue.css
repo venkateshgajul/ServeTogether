@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ header{
+    background-color: #FAEDCE;
+    color: black;
+ }
+ header p{
+   font-family: 'poppins';
+   font-size: 20px;
+ }
+ .topbar{
+    display: flex;
+    border-bottom: 1px solid #CCD5AE ;
+    padding-left: 45px;
+    height: 36px;
+    align-items: center;
+}
+ .topbar ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+ }
+ nav{
+    display: flex;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+ .logo img{
+    width:66px;
+    padding:0px 0px 0px 25px;
+ }
+ nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+    margin-left: 1300px;
+ }
+ nav ul li{
+    list-style: none;
+    padding: 0 30px;
+    font-size: 17px;
+ }
+ nav ul li a{
+    color:black;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+  text-decoration: underline;
+  text-decoration-color: black;
+  cursor: pointer;
+ }
+  /*Navbar closed*/
+.animal-div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+p,h3,h4{
+   text-align: center;
+}
+
+.p1{
+   font-size: 19px;
+   margin: 28px;
+}
+h3{
+   margin: 20px;
+}
+i{
+   font-size: 22px;
+   margin-right: 8px; 
+}
+/*form open*/
+.form-container {
+   margin: 10px 500px 10px 500px;
+}
+h2 {
+   text-align: center;
+   margin-bottom: 20px;
+   color: #333;
+}
+form {
+   display: flex;
+   flex-direction: column;
+}
+label {
+   margin-bottom: 8px;
+   color: #555;
+}
+input, textarea {
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+button {
+   padding: 10px;
+   background-color: #28a745;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+button:hover {
+   background-color: #218838;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Page</title>
+    <link rel="stylesheet" href="charity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <ul>
+                <li>Together for a Better Tomorrow</li>  
+            </ul>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" ><p>ServeTogether</p>
+            </div>
+            <ul> 
+                <li><a href="main.html"><i class="fa-solid fa-house"></i>  Home</a></li>
+                <li><a href="events.html"><i class="fa-solid fa-calendar-days"></i> Events</a></li>
+                <li><a href="aboutus.html"><i class="fa-solid fa-address-card"></i>  About us</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-blog"></i>  Blog</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-user"></i>  Login In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="logo">
+        <img src="images/logo.png" alt="logo" ><p>ServeTogether</p><br>
+    </div>
+<div class="charity-div">
+    <div class="form-container">
+        <h1>Charity Partner Application</h1>
+        <form action="charity.jsp" method="post">
+            <label for="charity-name">Charity Name:</label>
+            <input type="text" id="charity-name" name="charity-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="reason">Why do you want to partner with us?</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

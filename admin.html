@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - ServeTogether</title>
+    <link rel="stylesheet" href="admin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <ul>
+                <li>Together for a Better Tomorrow</li>  
+            </ul>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" ><text>ServeTogether</text>
+            </div>
+                <ul> 
+                <li><a href="main.html"><i class="fa-solid fa-house"></i>  Home</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="stats">
+            <div class="chart-container">
+                <canvas id="volunteerCharityChart"></canvas>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <h3>Donations</h3>
+                    <canvas id="donationChart"></canvas>
+                    <p>Total Donations: <span id="donationCount">0</span></p>
+                </div>
+                <div class="card">
+                    <h3>Volunteers</h3>
+                    <p id="volunteerCount">0</p>
+                </div>
+                <div class="card">
+                    <h3>Charities</h3>
+                    <p id="charityCount">0</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="buttons">
+        	<button class="btn" onclick="window.location.href='register_admin.jsp';"> Registration Details</button>
+            <button class="btn" onclick="window.location.href='Volunteer_referral_form.jsp';"> Volunteers Details</button>
+            <button class="btn" onclick="window.location.href='Charity_partner-application_admin.jsp';"> Charity Details</button>
+            <button class="btn" onclick="window.location.href='Admin_donation.jsp';"> Donation Details</button>
+            <button class="btn" onclick="window.location.href='campaigndetails.html';"> Campaign Details</button>
+            <button class="btn" onclick="window.location.href='Review_admin.jsp';">Reviews</button>
+        </div>
+
+
+        
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
